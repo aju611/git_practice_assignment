@@ -1,13 +1,12 @@
-let word ="naman";
-let count=0;
-
-for (let i=0; i<=word.length; i++){
-  if (word==count [word.length-1-i])
-    count++;
-  
-}if(count==word){
-console.log("is palindrome");
-}else {
-  console.log("is not palindrome");
+let xyz = 'NAMAN';
+let sum = 0;
+for(let i = 0;i<xyz.length;i++){
+  if(xyz[i]==x[xyz.length-1-i]){
+    sum++;
+  }
 }
-  console.log(count++);
+if(sum==xyz.length){
+  console.log('Yes it is Pallindrome');
+} else {
+  console.log('Not a palindrome');
+}
